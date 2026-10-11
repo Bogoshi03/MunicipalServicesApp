@@ -58,7 +58,6 @@
             // 
             // btnLocalEvents
             // 
-            this.btnLocalEvents.Enabled = false;
             this.btnLocalEvents.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLocalEvents.Location = new System.Drawing.Point(228, 153);
             this.btnLocalEvents.Name = "btnLocalEvents";
@@ -66,6 +65,7 @@
             this.btnLocalEvents.TabIndex = 2;
             this.btnLocalEvents.Text = "Local Events and Announcements";
             this.btnLocalEvents.UseVisualStyleBackColor = true;
+            this.btnLocalEvents.Click += new System.EventHandler(this.btnLocalEvents_Click);
             // 
             // btnServiceStatus
             // 
